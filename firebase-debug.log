@@ -1,0 +1,44 @@
+[debug] [2024-12-02T10:42:14.363Z] ----------------------------------------------------------------------
+[debug] [2024-12-02T10:42:14.370Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2024-12-02T10:42:14.370Z] CLI Version:   13.27.0
+[debug] [2024-12-02T10:42:14.370Z] Platform:      darwin
+[debug] [2024-12-02T10:42:14.370Z] Node Version:  v20.17.0
+[debug] [2024-12-02T10:42:14.370Z] Time:          Mon Dec 02 2024 16:12:14 GMT+0530 (India Standard Time)
+[debug] [2024-12-02T10:42:14.371Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-02T10:42:14.485Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-02T10:42:14.485Z] > authorizing via signed-in user (maseerabaig13@gmail.com)
+[debug] [2024-12-02T10:42:14.485Z] [iam] checking project financemanagerapp-e5415 for permissions ["firebase.projects.get"]
+[debug] [2024-12-02T10:42:14.486Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:14.486Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:14.487Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415:testIamPermissions [none]
+[debug] [2024-12-02T10:42:14.487Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415:testIamPermissions x-goog-quota-user=projects/financemanagerapp-e5415
+[debug] [2024-12-02T10:42:14.487Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-02T10:42:16.063Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415:testIamPermissions 200
+[debug] [2024-12-02T10:42:16.064Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-12-02T10:42:16.064Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:16.064Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:16.064Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415 [none]
+[debug] [2024-12-02T10:42:16.416Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415 200
+[debug] [2024-12-02T10:42:16.416Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/financemanagerapp-e5415 {"projectNumber":"351104016654","projectId":"financemanagerapp-e5415","lifecycleState":"ACTIVE","name":"FinanceManagerApp","labels":{"firebase":"enabled"},"createTime":"2024-12-02T10:00:54.899712Z"}
+[info] 
+[info] === Serving from '/Users/maseerabaig/finance-manager'...
+[info] 
+[debug] [2024-12-02T10:42:16.419Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:16.419Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:16.419Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/financemanagerapp-e5415/sites 
+[debug] [2024-12-02T10:42:17.541Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/financemanagerapp-e5415/sites 200
+[debug] [2024-12-02T10:42:17.541Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/financemanagerapp-e5415/sites {"sites":[{"name":"projects/financemanagerapp-e5415/sites/financemanagerapp-e5415","defaultUrl":"https://financemanagerapp-e5415.web.app","appId":"1:351104016654:web:feb7508803e91ca6d8f75f","type":"DEFAULT_SITE"}]}
+[debug] [2024-12-02T10:42:17.541Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:17.541Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:17.541Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/financemanagerapp-e5415/webApps/1:351104016654:web:feb7508803e91ca6d8f75f/config [none]
+[debug] [2024-12-02T10:42:18.891Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/financemanagerapp-e5415/webApps/1:351104016654:web:feb7508803e91ca6d8f75f/config 200
+[debug] [2024-12-02T10:42:18.891Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/financemanagerapp-e5415/webApps/1:351104016654:web:feb7508803e91ca6d8f75f/config {"projectId":"financemanagerapp-e5415","appId":"1:351104016654:web:feb7508803e91ca6d8f75f","storageBucket":"financemanagerapp-e5415.firebasestorage.app","apiKey":"AIzaSyCu4Ubh6PlqtcVYtAoDAnPo_OGpB6rGUhE","authDomain":"financemanagerapp-e5415.firebaseapp.com","messagingSenderId":"351104016654","measurementId":"G-GW1LBSPZ9H"}
+[debug] [2024-12-02T10:42:18.899Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:18.899Z] Checked if tokens are valid: true, expires at: 1733137983735
+[debug] [2024-12-02T10:42:18.900Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/financemanagerapp-e5415 [none]
+[debug] [2024-12-02T10:42:19.461Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/financemanagerapp-e5415 200
+[debug] [2024-12-02T10:42:19.461Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/financemanagerapp-e5415 {"projectId":"financemanagerapp-e5415","projectNumber":"351104016654","displayName":"FinanceManagerApp","name":"projects/financemanagerapp-e5415","resources":{"hostingSite":"financemanagerapp-e5415"},"state":"ACTIVE","etag":"1_1bedbe8f-afcf-4b2a-8a9f-fb049be072a9"}
+[debug] [2024-12-02T10:42:19.462Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "financemanagerapp-e5415" may fail or be empty.
+[info] i  hosting[financemanagerapp-e5415]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] ✔  hosting[financemanagerapp-e5415]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
